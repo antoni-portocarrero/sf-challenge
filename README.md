@@ -93,7 +93,3 @@ npm run build
 ```bash
 npm test
 ```
-
-## License
-
-BSD-3-Clause
