@@ -1,0 +1,11 @@
+fullName,label,type,length,precision,scale,description,formula,picklistValues,defaultValue,required,externalId,unique,caseSensitive,inlineHelpText
+Account_Number__c,Account Number,Text,20,,,Unique identifier for the account,,,,TRUE,TRUE,TRUE,FALSE,Enter the account's unique number.
+Order_Total__c,Order Total,Currency,,18,2,The total value of the order,,,0.00,TRUE,FALSE,FALSE,FALSE,
+Is_Active__c,Is Active,Checkbox,,,,,,,,FALSE,FALSE,FALSE,FALSE,Check if the record is active.
+Status__c,Status,Picklist,,,,,,"New,In Progress,Completed",New,TRUE,FALSE,FALSE,FALSE,Select the current status.
+Close_Date__c,Close Date,Date,,,,,,,,FALSE,FALSE,FALSE,FALSE,The date the opportunity is expected to close.
+Probability__c,Probability,Percent,,3,0,The likelihood of winning the opportunity,,,0,FALSE,FALSE,FALSE,FALSE,Enter a percentage.
+Contact_Email__c,Contact Email,Email,100,,,,,,,FALSE,FALSE,FALSE,FALSE,Enter the primary contact email address.
+Lead_Source__c,Lead Source,Picklist,,,,,,"Web,Phone,Referral,Other",Web,FALSE,FALSE,FALSE,FALSE,How did the lead find us?
+Discount_Rate__c,Discount Rate,Number,,5,2,Applicable discount rate,,,0.00,FALSE,FALSE,FALSE,FALSE,Enter the discount percentage.
+VIP_Customer__c,VIP Customer,Boolean,,,,,,,,FALSE,FALSE,FALSE,FALSE,Indicates if the customer is a VIP.
